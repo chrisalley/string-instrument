@@ -12,3 +12,7 @@ export function camelise(
     })
     .join("");
 }
+
+export function dasherise(words: string): string {
+  return words.replace("_", "-");
+}
