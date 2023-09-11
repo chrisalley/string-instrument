@@ -1,5 +1,5 @@
 import { describe, test, expect } from "vitest";
-import { camelise, dasherise } from "./index";
+import { camelise, dasherise, downcaseFirst } from "./index";
 
 describe("camelise", () => {
   test("converts underscored string to camelcase with uppercase first letter by default", () => {
@@ -14,5 +14,11 @@ describe("camelise", () => {
 describe("dasherise", () => {
   test("converts underscored string to a hyphenated string", () => {
     expect(dasherise("active_model")).toEqual("active-model");
+  });
+});
+
+describe("downcaseFirst", () => {
+  test("makes the first character of the first word lowercase", () => {
+    expect(downcaseFirst("First Second")).toEqual("first Second");
   });
 });
