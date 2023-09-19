@@ -19,7 +19,7 @@ describe("camelise", () => {
 
 describe("dasherise", () => {
   test("converts underscored string to a hyphenated string", () => {
-    expect(dasherise("active_model")).toEqual("active-model");
+    expect(dasherise("first_second_third")).toEqual("first-second-third");
   });
 });
 

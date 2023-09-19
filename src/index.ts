@@ -14,7 +14,7 @@ export function camelise(
 }
 
 export function dasherise(words: string): string {
-  return words.replace("_", "-");
+  return words.replaceAll("_", "-");
 }
 
 export function downcaseFirst(words: string): string {
