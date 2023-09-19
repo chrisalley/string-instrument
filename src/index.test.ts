@@ -1,5 +1,11 @@
 import { describe, test, expect } from "vitest";
-import { camelise, dasherise, downcaseFirst, parameterise } from "./index";
+import {
+  camelise,
+  dasherise,
+  downcaseFirst,
+  parameterise,
+  titleise,
+} from "./index";
 
 describe("camelise", () => {
   test("converts underscored string to camelcase with uppercase first letter by default", () => {
@@ -44,5 +50,23 @@ describe("parameterise", () => {
     expect(parameterise("First Second__")).toEqual("first-second__");
     expect(parameterise("First Second--", "_")).toEqual("first_second--");
     expect(parameterise("First_Second--", ".")).toEqual("first_second--");
+  });
+});
+
+describe("titleise", () => {
+  test("capitalises each space seperated word in the string", () => {
+    expect(titleise("first second third")).toEqual("First Second Third");
+  });
+
+  test("capitalises each underscore seperated word, replacing underscores with spaces", () => {
+    expect(titleise("first_second_third")).toEqual("First Second Third");
+  });
+
+  test("adds a space between each word that already starts with a capital", () => {
+    expect(titleise("FirstSecondThird")).toEqual("First Second Third");
+  });
+
+  test("remove additional spaces in around and within title", () => {
+    expect(titleise("  first  second  third  ")).toEqual("First Second Third");
   });
 });
