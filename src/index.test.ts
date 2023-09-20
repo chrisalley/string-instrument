@@ -9,11 +9,11 @@ import {
 
 describe("camelise", () => {
   test("converts underscored string to camelcase with uppercase first letter by default", () => {
-    expect(camelise("active_model")).toEqual("ActiveModel");
+    expect(camelise("first_second_third")).toEqual("FirstSecondThird");
   });
 
   test("converts underscored string to camelcase with lowercase first letter when uppercase first letter is false", () => {
-    expect(camelise("active_model", false)).toEqual("activeModel");
+    expect(camelise("first_second_third", false)).toEqual("firstSecondThird");
   });
 });
 
@@ -25,7 +25,7 @@ describe("dasherise", () => {
 
 describe("downcaseFirst", () => {
   test("makes the first character of the first word lowercase", () => {
-    expect(downcaseFirst("First Second")).toEqual("first Second");
+    expect(downcaseFirst("First Second Third")).toEqual("first Second Third");
   });
 });
 
