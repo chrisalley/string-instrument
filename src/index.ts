@@ -53,6 +53,18 @@ export function titleise(words: string): string {
     .join(" ");
 }
 
+export function underscore(words: string): string {
+  return words
+    .split("")
+    .map((letter, index) => {
+      if (index !== 0 && letterIsUpperCase(letter)) {
+        return `_${letter.toLowerCase()}`;
+      }
+      return letter.toLowerCase();
+    })
+    .join("");
+}
+
 function letterIsUpperCase(letter: string): boolean {
   return letter.toUpperCase() === letter && letter.toLowerCase() !== letter;
 }

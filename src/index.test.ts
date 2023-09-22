@@ -5,6 +5,7 @@ import {
   downcaseFirst,
   parameterise,
   titleise,
+  underscore,
 } from "./index";
 
 describe("camelise", () => {
@@ -68,5 +69,15 @@ describe("titleise", () => {
 
   test("remove additional spaces in around and within title", () => {
     expect(titleise("  first  second  third  ")).toEqual("First Second Third");
+  });
+});
+
+describe("underscore", () => {
+  test("converts camelcase string to underscore seperated string", () => {
+    expect(underscore("firstSecondThird")).toEqual("first_second_third");
+  });
+
+  test("converts pascalcase string to underscore seperated string", () => {
+    expect(underscore("FirstSecondThird")).toEqual("first_second_third");
   });
 });
