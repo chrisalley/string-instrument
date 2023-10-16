@@ -1,9 +1,10 @@
 {
   "name": "string-instrument",
-  "private": true,
-  "version": "0.0.0",
+  "author": "Chris Alley",
+  "version": "0.0.1",
   "type": "module",
-  "main": "dist/index.js",
+  "main": "dist/string-instrument.js",
+  "source": "src/index.ts",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
