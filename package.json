@@ -5,6 +5,9 @@
   "type": "module",
   "main": "dist/string-instrument.js",
   "source": "src/index.ts",
+  "files": [
+    "dist/string-instrument.js"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
