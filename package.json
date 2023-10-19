@@ -29,7 +29,6 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "publish": "pnpm build & npm publish",
     "preview": "vite preview",
     "coverage": "vitest run --coverage",
     "test": "vitest",
