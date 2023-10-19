@@ -1,19 +1,35 @@
 {
   "name": "string-instrument",
-  "author": "Chris Alley",
+  "version": "0.0.2",
   "description": "A little library for working with strings",
   "homepage": "https://github.com/chrisalley/string-instrument",
+  "keywords": [
+    "string",
+    "strings",
+    "slug",
+    "camelcase",
+    "hyphen seperated",
+    "underscore seperated"
+  ],
   "license": "MIT",
-  "version": "0.0.2",
+  "author": "Chris Alley",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chrisalley/string-instrument"
+  },
   "main": "dist/string-instrument.js",
   "source": "src/index.ts",
   "files": [
     "dist/string-instrument.js"
   ],
+  "engines": {
+    "node": ">=18"
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
+    "publish": "pnpm build & npm publish",
     "preview": "vite preview",
     "coverage": "vitest run --coverage",
     "test": "vitest",
