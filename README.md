@@ -26,6 +26,7 @@ console.log(camelise('hello_world')) // helloWorld
 console.log(dasherise('hello_world')) // hello-world
 console.log(downcaseFirst('Hello World')) // hello World
 console.log(parameterise('Hello World')) // hello-world
+console.log(pascalise('hello_world')) // HelloWorld
 console.log(titleise('hello world')) // Hello World
 console.log(underscore('helloWorld')) // hello_world
 ```

@@ -1,6 +1,6 @@
 export default function camelise(
   words: string,
-  uppercaseFirstLetter: boolean = true
+  uppercaseFirstLetter: boolean = false
 ): string {
   return words
     .split('_')
