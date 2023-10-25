@@ -17,8 +17,10 @@ import {
   camelise,
   dasherise,
   downcaseFirst,
+  humanise,
   ordinal,
   parameterise,
+  pascalise,
   titleise,
   underscore
 } from 'string-instrument'
