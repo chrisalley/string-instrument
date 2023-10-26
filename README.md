@@ -19,6 +19,7 @@ import {
   downcaseFirst,
   humanise,
   ordinal,
+  ordinalise,
   parameterise,
   pascalise,
   titleise,
@@ -30,6 +31,7 @@ console.log(dasherise('hello_world')) // hello-world
 console.log(downcaseFirst('Hello World')) // hello World
 console.log(humanise('hello_world')) // hello world
 console.log(ordinal(1)) // st
+console.log(ordinalise(1)) // 1st
 console.log(parameterise('Hello World')) // hello-world
 console.log(pascalise('hello_world')) // HelloWorld
 console.log(titleise('hello world')) // Hello World
