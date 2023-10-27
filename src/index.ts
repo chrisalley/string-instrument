@@ -8,6 +8,7 @@ import parameterise from './parameterise'
 import pascalise from './pascalise'
 import titleise from './titleise'
 import underscore from './underscore'
+import upcaseFirst from './upcase-first'
 
 export {
   camelise,
@@ -19,5 +20,6 @@ export {
   parameterise,
   pascalise,
   titleise,
-  underscore
+  underscore,
+  upcaseFirst
 }

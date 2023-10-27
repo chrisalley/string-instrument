@@ -23,7 +23,8 @@ import {
   parameterise,
   pascalise,
   titleise,
-  underscore
+  underscore,
+  upcaseFirst
 } from 'string-instrument'
 
 console.log(camelise('hello_world')) // helloWorld
@@ -36,4 +37,5 @@ console.log(parameterise('Hello World')) // hello-world
 console.log(pascalise('hello_world')) // HelloWorld
 console.log(titleise('hello world')) // Hello World
 console.log(underscore('helloWorld')) // hello_world
+console.log(upcaseFirst('hello world')) // Hello world
 ```
