@@ -34,11 +34,12 @@
     "test": "vitest",
     "test:ui": "vitest --ui",
     "prettier": "prettier --check .",
-    "prettier:fix": "prettier --write ."
+    "prettier:fix": "prettier --write .",
+    "types": "tsc"
   },
   "devDependencies": {
     "prettier": "^3.0.3",
-    "typescript": "^5.2.2",
+    "typescript": "^5.3.2",
     "vite": "^5.0.2",
     "vitest": "^0.34.5"
   }
