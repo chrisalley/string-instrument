@@ -38,9 +38,9 @@
     "types": "tsc"
   },
   "devDependencies": {
-    "prettier": "^3.0.3",
-    "typescript": "^5.3.2",
-    "vite": "^5.0.2",
-    "vitest": "^0.34.5"
+    "prettier": "^3.2.5",
+    "typescript": "^5.4.4",
+    "vite": "^5.2.8",
+    "vitest": "^0.34.6"
   }
 }
