@@ -35,9 +35,15 @@
     "test:ui": "vitest --ui",
     "prettier": "prettier --check .",
     "prettier:fix": "prettier --write .",
-    "types": "tsc"
+    "types": "tsc",
+    "prepare": "husky",
+    "commitlint": "commitlint --edit"
   },
   "devDependencies": {
+    "@commitlint/cli": "^19.4.0",
+    "@commitlint/config-conventional": "^19.2.2",
+    "@commitlint/types": "^19.0.3",
+    "husky": "^9.1.4",
     "prettier": "^3.2.5",
     "typescript": "^5.4.4",
     "vite": "^5.2.8",
