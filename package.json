@@ -24,7 +24,7 @@
     "dist/string-instrument.js"
   ],
   "engines": {
-    "node": ">=18"
+    "node": ">=20"
   },
   "scripts": {
     "dev": "vite",
@@ -40,13 +40,14 @@
     "commitlint": "commitlint --edit"
   },
   "devDependencies": {
-    "@commitlint/cli": "^19.4.0",
-    "@commitlint/config-conventional": "^19.2.2",
-    "@commitlint/types": "^19.0.3",
-    "husky": "^9.1.4",
-    "prettier": "^3.2.5",
-    "typescript": "^5.4.4",
-    "vite": "^5.2.8",
-    "vitest": "^0.34.6"
+    "@commitlint/cli": "^19.5.0",
+    "@commitlint/config-conventional": "^19.5.0",
+    "@commitlint/types": "^19.5.0",
+    "husky": "^9.1.6",
+    "prettier": "^3.3.3",
+    "typescript": "^5.6.2",
+    "vite": "^5.4.6",
+    "vitest": "^0.34.6",
+    "@vitest/coverage-v8": "^0.34.6"
   }
 }
