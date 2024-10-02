@@ -8,5 +8,10 @@ export default [
   { languageOptions: { globals: globals.browser } },
   pluginJs.configs.recommended,
   ...tseslint.configs.recommended,
-  eslintConfigPrettier
+  eslintConfigPrettier,
+  {
+    rules: {
+      '@typescript-eslint/explicit-function-return-type': 'error'
+    }
+  }
 ]
