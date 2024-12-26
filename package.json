@@ -23,7 +23,7 @@
   },
   "source": "src/index.ts",
   "files": [
-    "dist/**/*"
+    "dist/string-instrument.js"
   ],
   "engines": {
     "node": ">=20"
