@@ -18,7 +18,9 @@
     "type": "git",
     "url": "https://github.com/chrisalley/string-instrument"
   },
-  "main": "dist/string-instrument.js",
+  "exports": {
+    ".": "./dist/string-instrument.js"
+  },
   "source": "src/index.ts",
   "files": [
     "dist"
