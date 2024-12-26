@@ -23,7 +23,7 @@
   },
   "source": "src/index.ts",
   "files": [
-    "dist"
+    "dist/**/*"
   ],
   "engines": {
     "node": ">=20"
