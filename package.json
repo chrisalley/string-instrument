@@ -21,7 +21,7 @@
   "main": "dist/string-instrument.js",
   "source": "src/index.ts",
   "files": [
-    "dist/string-instrument.js"
+    "dist"
   ],
   "engines": {
     "node": ">=20"
