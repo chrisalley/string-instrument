@@ -1,5 +1,11 @@
 import { letterIsUpperCase } from './shared-functions'
 
+/**
+ * Capitalises each word in the specified string.
+ *
+ * @param words - a string of words to be titleised.
+ * @returns a copy of words where each word starts with an uppercase character.
+ */
 export default function titleise(words: string): string {
   return words
     .trim()
