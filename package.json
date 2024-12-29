@@ -28,6 +28,7 @@
   "engines": {
     "node": ">=20"
   },
+  "packageManager": "pnpm@9.10.0",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -40,6 +41,7 @@
     "prettier": "prettier --check .",
     "prettier:fix": "prettier --write .",
     "types": "tsc",
+    "typedoc": "pnpx typedoc src/index.ts",
     "prepare": "husky",
     "commitlint": "commitlint --edit"
   },
@@ -54,7 +56,6 @@
     "globals": "^15.14.0",
     "husky": "^9.1.7",
     "prettier": "^3.4.2",
-    "typedoc": "^0.27.6",
     "typescript": "^5.7.2",
     "typescript-eslint": "^8.18.2",
     "vite": "^6.0.6",
