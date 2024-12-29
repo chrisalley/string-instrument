@@ -3,23 +3,15 @@ name: Docs
 on: [push]
 
 jobs:
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+  build:
+    # Specify runner + build & upload the static files as an artifact
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    concurrency:
-      group: ${{ github.workflow }}-${{ github.ref }}
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
 
       - name: Install pnpm package manager
-        uses: pnpm/action-setup@v4
-        with:
-          version: 9.10.0
+        uses: pnpm/action-setup@v4 # Extracts pnpm version from package.json packageManager field
 
       - name: Use Node ${{ matrix.node }}
         uses: actions/setup-node@v4
@@ -29,15 +21,33 @@ jobs:
       - name: Install Dependencies
         run: pnpm install
 
-      - name: Install TypeDoc
-        run: pnpm -g install typedoc
-
       - name: Generate docs
-        run: typedoc src/index.ts
+        run: pnpm typedoc
 
-      - name: Deploy docs
-        uses: peaceiris/actions-gh-pages@v4
-        if: github.ref == 'refs/heads/main'
+      - name: Upload static files as artifact
+        id: deployment
+        uses: actions/upload-pages-artifact@v3 # or specific "vX.X.X" version tag for this action
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./docs
+          path: docs # Build output folder
+
+  deploy:
+    # Add a dependency to the build job
+    needs: build
+
+    # Grant GITHUB_TOKEN the permissions required to make a Pages deployment
+    permissions:
+      pages: write # to deploy to Pages
+      id-token: write # to verify the deployment originates from an appropriate source
+
+    # Deploy to the github-pages environment
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    # Specify runner + deployment step
+    runs-on: ubuntu-latest
+    if: ${{ github.ref == 'refs/heads/main' }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4 # or specific "vX.X.X" version tag for this action
