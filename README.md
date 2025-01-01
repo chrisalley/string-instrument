@@ -12,9 +12,17 @@ npm install --save string-instrument
 
 ## Usage
 
+### Camelise
+
+```js
+import { camelise } from 'string-instrument'
+
+console.log(camelise('one two_three')) // oneTwoThree
+console.log(camelise('one two_three', true)) // OneTwoThree
+```
+
 ```js
 import {
-  camelise,
   dasherise,
   downcaseFirst,
   humanise,
@@ -27,7 +35,6 @@ import {
   upcaseFirst
 } from 'string-instrument'
 
-console.log(camelise('hello_world')) // helloWorld
 console.log(dasherise('hello_world')) // hello-world
 console.log(downcaseFirst('Hello World')) // hello World
 console.log(humanise('hello_world')) // hello world
