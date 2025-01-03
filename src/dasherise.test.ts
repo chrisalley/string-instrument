@@ -2,7 +2,12 @@ import { describe, test, expect } from 'vitest'
 import { dasherise } from './index'
 
 describe('dasherise', () => {
-  test('converts underscored string to a hyphenated string', () => {
-    expect(dasherise('first_second_third')).toEqual('first-second-third')
+  const spaceSeparatedWords = 'first second third'
+  const underscoreSeparatedWords = 'first_second_third'
+
+  test('converts space or underscore separated string to a hyphen separated string', () => {
+    const hyphenSeparatedWords = 'first-second-third'
+    expect(dasherise(spaceSeparatedWords)).toEqual(hyphenSeparatedWords)
+    expect(dasherise(underscoreSeparatedWords)).toEqual(hyphenSeparatedWords)
   })
 })
