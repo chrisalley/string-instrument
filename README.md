@@ -21,9 +21,16 @@ console.log(camelise('one two_three')) // oneTwoThree
 console.log(camelise('one two_three', true)) // OneTwoThree
 ```
 
+### Dasherise
+
+```js
+import { dasherise } from 'string-instrument'
+
+console.log(dasherise('one two_three')) // one-two-three
+```
+
 ```js
 import {
-  dasherise,
   downcaseFirst,
   humanise,
   ordinal,
@@ -35,7 +42,6 @@ import {
   upcaseFirst
 } from 'string-instrument'
 
-console.log(dasherise('hello_world')) // hello-world
 console.log(downcaseFirst('Hello World')) // hello World
 console.log(humanise('hello_world')) // hello world
 console.log(ordinal(1)) // st
