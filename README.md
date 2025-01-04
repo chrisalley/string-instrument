@@ -29,9 +29,16 @@ import { dasherise } from 'string-instrument'
 console.log(dasherise('one two_three')) // one-two-three
 ```
 
+### Downcase First
+
+```js
+import { downcaseFirst } from 'string-instrument'
+
+console.log(downcaseFirst('One Two Three')) // one Two Three
+```
+
 ```js
 import {
-  downcaseFirst,
   humanise,
   ordinal,
   ordinalise,
@@ -42,7 +49,6 @@ import {
   upcaseFirst
 } from 'string-instrument'
 
-console.log(downcaseFirst('Hello World')) // hello World
 console.log(humanise('hello_world')) // hello world
 console.log(ordinal(1)) // st
 console.log(ordinalise(1)) // 1st
