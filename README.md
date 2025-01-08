@@ -37,9 +37,17 @@ import { downcaseFirst } from 'string-instrument'
 console.log(downcaseFirst('One Two Three')) // one Two Three
 ```
 
+### Humanise
+
+```js
+import { humanise } from 'string-instrument'
+
+console.log(humanise('one two_three')) // one two three
+console.log(humanise('one two_three', true)) // One two three
+```
+
 ```js
 import {
-  humanise,
   ordinal,
   ordinalise,
   parameterise,
@@ -49,7 +57,6 @@ import {
   upcaseFirst
 } from 'string-instrument'
 
-console.log(humanise('hello_world')) // hello world
 console.log(ordinal(1)) // st
 console.log(ordinalise(1)) // 1st
 console.log(parameterise('Hello World')) // hello-world
