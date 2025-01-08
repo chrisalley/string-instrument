@@ -46,10 +46,28 @@ console.log(humanise('one two_three')) // one two three
 console.log(humanise('one two_three', true)) // One two three
 ```
 
+### Ordinal
+
+```js
+import { ordinal } from 'string-instrument'
+
+console.log(ordinal(1)) // st
+console.log(ordinal(42)) // nd
+console.log(ordinal(111)) // th
+```
+
+### Ordinalise
+
+```js
+import { ordinalise } from 'string-instrument'
+
+console.log(ordinalise(1)) // 1st
+console.log(ordinalise(42)) // 42nd
+console.log(ordinalise(111)) // 111th
+```
+
 ```js
 import {
-  ordinal,
-  ordinalise,
   parameterise,
   pascalise,
   titleise,
@@ -57,8 +75,6 @@ import {
   upcaseFirst
 } from 'string-instrument'
 
-console.log(ordinal(1)) // st
-console.log(ordinalise(1)) // 1st
 console.log(parameterise('Hello World')) // hello-world
 console.log(pascalise('hello_world')) // HelloWorld
 console.log(titleise('hello world')) // Hello World
