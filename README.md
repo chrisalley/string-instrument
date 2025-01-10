@@ -93,9 +93,17 @@ console.log(titleise('one two_three')) // One Two Three
 console.log(titleise('oneTwoThree')) // One Two Three
 ```
 
-```js
-import { underscore, upcaseFirst } from 'string-instrument'
+### Underscore
 
-console.log(underscore('helloWorld')) // hello_world
+```js
+import { underscore } from 'string-instrument'
+
+console.log(underscore('oneTwoThree')) // one_two_three
+console.log(underscore('one two three')) // one_two_three
+```
+
+```js
+import { upcaseFirst } from 'string-instrument'
+
 console.log(upcaseFirst('hello world')) // Hello world
 ```

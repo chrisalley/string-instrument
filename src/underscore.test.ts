@@ -2,11 +2,17 @@ import { describe, test, expect } from 'vitest'
 import { underscore } from './index'
 
 describe('underscore', () => {
-  test('converts camelcase string to underscore seperated string', () => {
-    expect(underscore('firstSecondThird')).toEqual('first_second_third')
+  const underscoreSeparatedWords = 'first_second_third'
+
+  test('converts camel case string to underscore separated string', () => {
+    expect(underscore('firstSecondThird')).toEqual(underscoreSeparatedWords)
   })
 
-  test('converts pascalcase string to underscore seperated string', () => {
-    expect(underscore('FirstSecondThird')).toEqual('first_second_third')
+  test('converts pascal case string to underscore separated string', () => {
+    expect(underscore('FirstSecondThird')).toEqual(underscoreSeparatedWords)
+  })
+
+  test('converts space separated string to underscore separated string', () => {
+    expect(underscore('first second third')).toEqual(underscoreSeparatedWords)
   })
 })

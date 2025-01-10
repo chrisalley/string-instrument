@@ -1,9 +1,10 @@
 import { letterIsUpperCase } from './shared-functions'
 
 /**
- * Converts a camelcase separated string of words to be underscore separated.
+ * Converts a camel case or space separated string of words to be underscore
+ * separated.
  *
- * @param words - a camelcase separated string of words.
+ * @param words - a camel case or space separated string of words.
  * @returns a copy of words where each word is underscore separated.
  */
 export default function underscore(words: string): string {
@@ -16,4 +17,5 @@ export default function underscore(words: string): string {
       return letter.toLowerCase()
     })
     .join('')
+    .replaceAll(' ', '_')
 }
