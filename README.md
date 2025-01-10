@@ -84,10 +84,18 @@ import { pascalise } from 'string-instrument'
 console.log(pascalise('one two_three')) // OneTwoThree
 ```
 
-```js
-import { titleise, underscore, upcaseFirst } from 'string-instrument'
+### Titleise
 
-console.log(titleise('hello world')) // Hello World
+```js
+import { titleise } from 'string-instrument'
+
+console.log(titleise('one two_three')) // One Two Three
+console.log(titleise('oneTwoThree')) // One Two Three
+```
+
+```js
+import { underscore, upcaseFirst } from 'string-instrument'
+
 console.log(underscore('helloWorld')) // hello_world
 console.log(upcaseFirst('hello world')) // Hello world
 ```

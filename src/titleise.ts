@@ -1,7 +1,8 @@
 import { letterIsUpperCase } from './shared-functions'
 
 /**
- * Capitalises each word in the specified string.
+ * Capitalises each word in the specified string, also treating underscore
+ * separated and camel case strings as a series of words.
  *
  * @param words - a string of words to be titleised.
  * @returns a copy of words where each word starts with an uppercase character.
