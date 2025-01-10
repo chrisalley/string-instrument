@@ -1,10 +1,14 @@
 # String Instrument
 
-A little library for working with strings.
-
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/chrisalley/string-instrument/blob/main/LICENSE)
 [![NPM](https://img.shields.io/npm/v/string-instrument.svg)](https://www.npmjs.com/package/string-instrument)
 [![CI](https://github.com/chrisalley/string-instrument/workflows/CI/badge.svg)](https://github.com/chrisalley/string-instrument/actions/workflows/ci.yml)
+
+String Instrument is small library containing utility functions for working with
+strings. It uses modern JavaScript module syntax and is limited to functionality
+not present in the built in [String object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String).
+
+The API was inspired by [Active Support Inflector](https://api.rubyonrails.org/classes/ActiveSupport/Inflector.html) but does not follow it 1:1.
 
 ## Installation
 
@@ -13,6 +17,11 @@ npm install --save string-instrument
 # yarn add string-instrument
 # pnpm add string-instrument
 ```
+
+## Documentation
+
+Visit https://chrisalley.github.io/string-instrument to view the full
+documentation.
 
 ## Usage
 
@@ -113,3 +122,7 @@ import { upcaseFirst } from 'string-instrument'
 
 console.log(upcaseFirst('one two three')) // One two three
 ```
+
+## License
+
+String Instrument is released under the [MIT License](https://opensource.org/licenses/MIT).
