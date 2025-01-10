@@ -66,16 +66,19 @@ console.log(ordinalise(42)) // 42nd
 console.log(ordinalise(111)) // 111th
 ```
 
-```js
-import {
-  parameterise,
-  pascalise,
-  titleise,
-  underscore,
-  upcaseFirst
-} from 'string-instrument'
+### Parameterise
 
-console.log(parameterise('Hello World')) // hello-world
+```js
+import { parameterise } from 'string-instrument'
+
+console.log(parameterise('one two three')) // one-two-three
+console.log(parameterise('one two three', '_')) // one_two_three
+console.log(parameterise('One Two Three', '-', true)) // One-Two-Three
+```
+
+```js
+import { pascalise, titleise, underscore, upcaseFirst } from 'string-instrument'
+
 console.log(pascalise('hello_world')) // HelloWorld
 console.log(titleise('hello world')) // Hello World
 console.log(underscore('helloWorld')) // hello_world
