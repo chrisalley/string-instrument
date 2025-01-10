@@ -76,10 +76,17 @@ console.log(parameterise('one two three', '_')) // one_two_three
 console.log(parameterise('One Two Three', '-', true)) // One-Two-Three
 ```
 
-```js
-import { pascalise, titleise, underscore, upcaseFirst } from 'string-instrument'
+### Pascalise
 
-console.log(pascalise('hello_world')) // HelloWorld
+```js
+import { pascalise } from 'string-instrument'
+
+console.log(pascalise('one two_three')) // OneTwoThree
+```
+
+```js
+import { titleise, underscore, upcaseFirst } from 'string-instrument'
+
 console.log(titleise('hello world')) // Hello World
 console.log(underscore('helloWorld')) // hello_world
 console.log(upcaseFirst('hello world')) // Hello world
