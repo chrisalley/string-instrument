@@ -102,8 +102,10 @@ console.log(underscore('oneTwoThree')) // one_two_three
 console.log(underscore('one two three')) // one_two_three
 ```
 
+### Upcase First
+
 ```js
 import { upcaseFirst } from 'string-instrument'
 
-console.log(upcaseFirst('hello world')) // Hello world
+console.log(upcaseFirst('one two three')) // One two three
 ```
