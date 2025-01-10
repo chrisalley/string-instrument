@@ -2,6 +2,10 @@
 
 A little library for working with strings.
 
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/chrisalley/string-instrument/blob/main/LICENSE)
+[![NPM](https://img.shields.io/npm/v/string-instrument.svg)](https://www.npmjs.com/package/string-instrument)
+[![CI](https://github.com/chrisalley/string-instrument/workflows/CI/badge.svg)](https://github.com/chrisalley/string-instrument/actions/workflows/ci.yml)
+
 ## Installation
 
 ```bash
