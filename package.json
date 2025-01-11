@@ -2,7 +2,6 @@
   "name": "string-instrument",
   "version": "0.0.8",
   "description": "A little library for working with strings",
-  "homepage": "https://github.com/chrisalley/string-instrument",
   "keywords": [
     "string",
     "strings",
