@@ -6,9 +6,12 @@
 
 String Instrument is small library containing utility functions for working with
 strings. It uses modern JavaScript module syntax and is limited to functionality
-not present in the built in [String object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String).
+not present in the built in [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)
+and [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
+objects.
 
-The API was inspired by [Active Support Inflector](https://api.rubyonrails.org/classes/ActiveSupport/Inflector.html) but does not follow it 1:1.
+The API was inspired by [Active Support Inflector](https://api.rubyonrails.org/classes/ActiveSupport/Inflector.html)
+but does not follow it 1:1.
 
 ## Installation
 
