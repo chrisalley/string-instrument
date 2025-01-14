@@ -97,6 +97,15 @@ import { pascalise } from 'string-instrument'
 console.log(pascalise('one two_three')) // OneTwoThree
 ```
 
+### Separate
+
+```js
+import { separate } from 'string-instrument'
+
+console.log(separate('oneTwoThree')) // one two three
+console.log(separate('one_two_three')) // one two three
+```
+
 ### Titleise
 
 ```js

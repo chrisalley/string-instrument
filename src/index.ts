@@ -6,6 +6,7 @@ import ordinal from './ordinal'
 import ordinalise from './ordinalise'
 import parameterise from './parameterise'
 import pascalise from './pascalise'
+import separate from './separate'
 import titleise from './titleise'
 import underscore from './underscore'
 import upcaseFirst from './upcase-first'
@@ -19,6 +20,7 @@ export {
   ordinalise,
   parameterise,
   pascalise,
+  separate,
   titleise,
   underscore,
   upcaseFirst
