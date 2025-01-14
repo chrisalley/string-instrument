@@ -9,7 +9,6 @@
  * @param uppercaseFirstLetter - if true, the first letter will be uppercase.
  * @returns a camelcase version of words.
  */
-
 export default function camelise(
   words: string,
   uppercaseFirstLetter: boolean = false
