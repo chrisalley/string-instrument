@@ -11,13 +11,23 @@
     "allowImportingTsExtensions": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "noEmit": true,
 
     /* Linting */
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+
+    /* Dist generation */
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipDefaultLibCheck": true,
+    "verbatimModuleSyntax": true,
+    "emitDeclarationOnly": true,
+    "strictNullChecks": true,
+    "declaration": true
   },
-  "include": ["src"]
+  "include": ["src/**/*"]
 }
