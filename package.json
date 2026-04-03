@@ -1,6 +1,6 @@
 {
   "name": "string-instrument",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "description": "A little library for working with strings",
   "keywords": [
     "string",
