@@ -28,11 +28,8 @@ jobs:
       - name: Install Dependencies
         run: pnpm install
 
-      - name: Format
-        run: pnpm format
-
-      - name: Lint
-        run: pnpm lint
+      - name: Format, lint, and organize imports of all files
+        run: pnpm check
 
       - name: Types
         run: pnpm types

@@ -46,6 +46,8 @@
     "format:write": "pnpx @biomejs/biome format --write",
     "lint": "pnpx @biomejs/biome lint",
     "lint:write": "pnpx @biomejs/biome lint --write",
+    "check": "pnpx @biomejs/biome check",
+    "check:write": "pnpx @biomejs/biome check --write",
     "types": "tsc",
     "typedoc": "pnpx typedoc src/index.ts",
     "prepare": "husky",
