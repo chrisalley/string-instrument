@@ -1,0 +1,201 @@
+
+## <small>0.0.13 (2026-04-03)</small>
+
+* build: release version v0.0.13 ([afdc0b0](https://github.com/chrisalley/string-instrument/commit/afdc0b0))
+* build: use a single tsconfig.json and ensure d.ts file is generated in dist ([0c62a87](https://github.com/chrisalley/string-instrument/commit/0c62a87))
+
+## <small>0.0.12 (2026-04-03)</small>
+
+* build: add forward slash to the end of homepage url ([56ee8fa](https://github.com/chrisalley/string-instrument/commit/56ee8fa))
+* build: bump @commitlint/config-conventional from 19.8.0 to 19.8.1 ([522735b](https://github.com/chrisalley/string-instrument/commit/522735b))
+* build: bump @eslint/js from 9.22.0 to 9.23.0 ([2f0a3cc](https://github.com/chrisalley/string-instrument/commit/2f0a3cc))
+* build: bump eslint from 9.22.0 to 9.23.0 ([86f3fcc](https://github.com/chrisalley/string-instrument/commit/86f3fcc))
+* build: bump eslint from 9.23.0 to 9.28.0 ([a50b170](https://github.com/chrisalley/string-instrument/commit/a50b170))
+* build: bump eslint-config-prettier from 10.1.1 to 10.1.5 ([741a1e6](https://github.com/chrisalley/string-instrument/commit/741a1e6))
+* build: bump globals from 15.15.0 to 16.0.0 ([a32ea38](https://github.com/chrisalley/string-instrument/commit/a32ea38))
+* build: bump globals from 16.0.0 to 16.2.0 ([92079f5](https://github.com/chrisalley/string-instrument/commit/92079f5))
+* build: bump typescript from 5.8.2 to 5.8.3 ([ca7209e](https://github.com/chrisalley/string-instrument/commit/ca7209e))
+* build: bump typescript-eslint from 8.26.1 to 8.29.0 ([f7e0c9a](https://github.com/chrisalley/string-instrument/commit/f7e0c9a))
+* build: bump typescript-eslint from 8.29.0 to 8.33.0 ([bff2e50](https://github.com/chrisalley/string-instrument/commit/bff2e50))
+* build: bump vite from 6.2.1 to 6.2.4 ([b521824](https://github.com/chrisalley/string-instrument/commit/b521824))
+* build: bump vite from 6.2.4 to 6.3.4 ([7062eb0](https://github.com/chrisalley/string-instrument/commit/7062eb0))
+* build: include types in the distribution ([e299d97](https://github.com/chrisalley/string-instrument/commit/e299d97))
+* build: release version v0.0.12 ([ff02271](https://github.com/chrisalley/string-instrument/commit/ff02271))
+* build: update dev dependencies ([32c9e4a](https://github.com/chrisalley/string-instrument/commit/32c9e4a))
+* build: upgrade to commitlint 20, eslint 10, and typescript 6 ([f2ee582](https://github.com/chrisalley/string-instrument/commit/f2ee582))
+* build: upgrade to vite 8 and vitest 4 ([6dbca5d](https://github.com/chrisalley/string-instrument/commit/6dbca5d))
+* build(pnpm): upgrade to node 24 and pnpm 10 ([667c902](https://github.com/chrisalley/string-instrument/commit/667c902))
+* build(security): resolve lodash vulnerabilities ([ecb00fc](https://github.com/chrisalley/string-instrument/commit/ecb00fc))
+* build(security): resolve yaml package vulnerability ([39f1ff7](https://github.com/chrisalley/string-instrument/commit/39f1ff7))
+* ci: bump actions/checkout from 4 to 6 ([2b1b3c1](https://github.com/chrisalley/string-instrument/commit/2b1b3c1))
+* ci: bump actions/setup-node from 4 to 6 ([267990a](https://github.com/chrisalley/string-instrument/commit/267990a))
+* ci: bump actions/upload-pages-artifact from 3 to 4 ([c28f3e2](https://github.com/chrisalley/string-instrument/commit/c28f3e2))
+
+## <small>0.0.11 (2025-03-25)</small>
+
+* build: add homepage field to package.json with URL to docs ([d085587](https://github.com/chrisalley/string-instrument/commit/d085587))
+* build: release version 0.0.11 ([6d7e87b](https://github.com/chrisalley/string-instrument/commit/6d7e87b))
+
+## <small>0.0.10 (2025-03-25)</small>
+
+* build: make exports in package.json an array instead of an object ([c1f5317](https://github.com/chrisalley/string-instrument/commit/c1f5317))
+* build: release version 0.0.10 ([b8d2fe1](https://github.com/chrisalley/string-instrument/commit/b8d2fe1))
+* docs: document steps for releasing a new version of the package ([77c8248](https://github.com/chrisalley/string-instrument/commit/77c8248))
+
+## <small>0.0.9 (2025-03-24)</small>
+
+* build: bump @commitlint/cli from 19.6.1 to 19.7.1 ([2d86883](https://github.com/chrisalley/string-instrument/commit/2d86883))
+* build: bump @commitlint/config-conventional from 19.6.0 to 19.7.1 ([3eecd37](https://github.com/chrisalley/string-instrument/commit/3eecd37))
+* build: bump @eslint/js from 9.17.0 to 9.18.0 ([0c08bb0](https://github.com/chrisalley/string-instrument/commit/0c08bb0))
+* build: bump @eslint/js from 9.18.0 to 9.19.0 ([0120a12](https://github.com/chrisalley/string-instrument/commit/0120a12))
+* build: bump @eslint/js from 9.19.0 to 9.20.0 ([bf87077](https://github.com/chrisalley/string-instrument/commit/bf87077))
+* build: bump eslint from 9.17.0 to 9.18.0 ([9ae6e1d](https://github.com/chrisalley/string-instrument/commit/9ae6e1d))
+* build: bump eslint from 9.18.0 to 9.19.0 ([13a7266](https://github.com/chrisalley/string-instrument/commit/13a7266))
+* build: bump eslint from 9.19.0 to 9.20.0 ([d45d0f8](https://github.com/chrisalley/string-instrument/commit/d45d0f8))
+* build: bump eslint-config-prettier from 9.1.0 to 10.0.1 ([77e858c](https://github.com/chrisalley/string-instrument/commit/77e858c))
+* build: bump globals from 15.14.0 to 16.0.0 (#68) ([ffce52c](https://github.com/chrisalley/string-instrument/commit/ffce52c)), closes [#68](https://github.com/chrisalley/string-instrument/issues/68)
+* build: bump typescript from 5.7.2 to 5.7.3 ([a122a78](https://github.com/chrisalley/string-instrument/commit/a122a78))
+* build: bump typescript-eslint from 8.18.2 to 8.20.0 ([dfd09de](https://github.com/chrisalley/string-instrument/commit/dfd09de))
+* build: bump typescript-eslint from 8.20.0 to 8.21.0 ([8801809](https://github.com/chrisalley/string-instrument/commit/8801809))
+* build: bump typescript-eslint from 8.21.0 to 8.22.0 ([e9df845](https://github.com/chrisalley/string-instrument/commit/e9df845))
+* build: bump typescript-eslint from 8.22.0 to 8.23.0 ([008c8e2](https://github.com/chrisalley/string-instrument/commit/008c8e2))
+* build: bump vite from 6.0.11 to 6.1.0 ([fd0bee5](https://github.com/chrisalley/string-instrument/commit/fd0bee5))
+* build: bump vite from 6.0.6 to 6.0.7 ([90cc0d3](https://github.com/chrisalley/string-instrument/commit/90cc0d3))
+* build: bump vite from 6.0.7 to 6.0.9 ([d33daf1](https://github.com/chrisalley/string-instrument/commit/d33daf1))
+* build: bump vite from 6.0.9 to 6.0.11 ([f24b642](https://github.com/chrisalley/string-instrument/commit/f24b642))
+* build: reduce minimum node version; allow node versions >=18 to use package ([6bb7a72](https://github.com/chrisalley/string-instrument/commit/6bb7a72))
+* build: release version 0.0.9 ([f9c6ae2](https://github.com/chrisalley/string-instrument/commit/f9c6ae2))
+* build: update major version of vitest to address esbuild vulnerability (plus minor patching) ([d8f7d5c](https://github.com/chrisalley/string-instrument/commit/d8f7d5c))
+* ci: add GitHub action to generate and deploy docs ([fd98809](https://github.com/chrisalley/string-instrument/commit/fd98809))
+* ci: extract pnpm version in main workflow from packageManager field ([a958b07](https://github.com/chrisalley/string-instrument/commit/a958b07))
+* ci: improve docs workflow by uploading GitHub Pages artifact and restricting deploy branch to main ([15da90d](https://github.com/chrisalley/string-instrument/commit/15da90d))
+* ci: reduce dependabot schedule interval to monthly for npm package updates ([49b4606](https://github.com/chrisalley/string-instrument/commit/49b4606))
+* ci: rename main workflow to ci ([51bd6eb](https://github.com/chrisalley/string-instrument/commit/51bd6eb))
+* refactor: remove extra blank line above camelise function ([221ef3f](https://github.com/chrisalley/string-instrument/commit/221ef3f))
+* docs: add about, documentation, and license sections to readme ([91f0659](https://github.com/chrisalley/string-instrument/commit/91f0659))
+* docs: add better readme examples for ordinal and ordinalise ([7ad2ef6](https://github.com/chrisalley/string-instrument/commit/7ad2ef6))
+* docs: add code of conduct ([60607dc](https://github.com/chrisalley/string-instrument/commit/60607dc))
+* docs: add further examples to readme for parameterise ([ce556a2](https://github.com/chrisalley/string-instrument/commit/ce556a2))
+* docs: add license, npm, and ci badges to readme ([d69c6b5](https://github.com/chrisalley/string-instrument/commit/d69c6b5))
+* docs: add some basic TSDoc comments for each function ([f0c787a](https://github.com/chrisalley/string-instrument/commit/f0c787a))
+* docs: make readme example for upcaseFirst consistent with others ([56543be](https://github.com/chrisalley/string-instrument/commit/56543be))
+* docs: mention Array object in readme ahead of adding array functions ([e43540e](https://github.com/chrisalley/string-instrument/commit/e43540e))
+* docs: update example for downcaseFirst in readme to match other examples ([2cee49a](https://github.com/chrisalley/string-instrument/commit/2cee49a))
+* docs: update license year to current year ([542a3a8](https://github.com/chrisalley/string-instrument/commit/542a3a8))
+* docs(package): improve list of keywords ([87f79ab](https://github.com/chrisalley/string-instrument/commit/87f79ab))
+* docs(package): remove homepage field (duplicate of repo) ([c47c451](https://github.com/chrisalley/string-instrument/commit/c47c451))
+* feat: add separate function to convert string to be space separated ([0388495](https://github.com/chrisalley/string-instrument/commit/0388495))
+* feat: convert space separated strings when calling pascalise ([ca17ac8](https://github.com/chrisalley/string-instrument/commit/ca17ac8))
+* feat: convert spaces as well as underscores when using camelise ([d8d496c](https://github.com/chrisalley/string-instrument/commit/d8d496c))
+* feat: convert spaces as well as underscores when using dasherise ([9c33e79](https://github.com/chrisalley/string-instrument/commit/9c33e79))
+* feat: update underscore function to convert spaces to underscores ([9d86737](https://github.com/chrisalley/string-instrument/commit/9d86737))
+* test: improve tests/docs for titleise ([01bf4ce](https://github.com/chrisalley/string-instrument/commit/01bf4ce))
+* test: update tests and docs for humanise to cover all scenarios ([bc3fe31](https://github.com/chrisalley/string-instrument/commit/bc3fe31))
+
+## <small>0.0.8 (2024-12-26)</small>
+
+* build: bump package version to 0.0.8 ([3ca3144](https://github.com/chrisalley/string-instrument/commit/3ca3144))
+
+## <small>0.0.7 (2024-12-26)</small>
+
+* build: bump package version to 0.0.7 ([a30f587](https://github.com/chrisalley/string-instrument/commit/a30f587))
+* build(package): include dist/string-instrument.js specifically in files array ([3724a20](https://github.com/chrisalley/string-instrument/commit/3724a20))
+
+## <small>0.0.6 (2024-12-26)</small>
+
+* build: bump package version to 0.0.6 ([a82787d](https://github.com/chrisalley/string-instrument/commit/a82787d))
+* build(package): include files within dist in package ([0d69ceb](https://github.com/chrisalley/string-instrument/commit/0d69ceb))
+
+## <small>0.0.5 (2024-12-26)</small>
+
+* build: bump package version to 0.0.5 ([037cdf5](https://github.com/chrisalley/string-instrument/commit/037cdf5))
+* build(package): replace main field with exports ([7e52550](https://github.com/chrisalley/string-instrument/commit/7e52550))
+
+## <small>0.0.4 (2024-12-26)</small>
+
+* build: add commitlint and husky ([9269e7a](https://github.com/chrisalley/string-instrument/commit/9269e7a))
+* build: add ESLint 9 to the project ([dd8541a](https://github.com/chrisalley/string-instrument/commit/dd8541a))
+* build: bump @commitlint/cli from 19.5.0 to 19.6.0 ([57da629](https://github.com/chrisalley/string-instrument/commit/57da629))
+* build: bump @commitlint/cli from 19.6.0 to 19.6.1 ([92c11da](https://github.com/chrisalley/string-instrument/commit/92c11da))
+* build: bump @commitlint/config-conventional from 19.5.0 to 19.6.0 ([e3aa8be](https://github.com/chrisalley/string-instrument/commit/e3aa8be))
+* build: bump @eslint/js from 9.11.1 to 9.12.0 ([78a2b75](https://github.com/chrisalley/string-instrument/commit/78a2b75))
+* build: bump @eslint/js from 9.12.0 to 9.13.0 ([a9dcc9b](https://github.com/chrisalley/string-instrument/commit/a9dcc9b))
+* build: bump @eslint/js from 9.13.0 to 9.14.0 ([7cd9c75](https://github.com/chrisalley/string-instrument/commit/7cd9c75))
+* build: bump @eslint/js from 9.14.0 to 9.15.0 ([4393307](https://github.com/chrisalley/string-instrument/commit/4393307))
+* build: bump @eslint/js from 9.15.0 to 9.16.0 ([1d9b3a0](https://github.com/chrisalley/string-instrument/commit/1d9b3a0))
+* build: bump @eslint/js from 9.16.0 to 9.17.0 ([e353152](https://github.com/chrisalley/string-instrument/commit/e353152))
+* build: bump eslint from 9.11.1 to 9.12.0 ([2709d92](https://github.com/chrisalley/string-instrument/commit/2709d92))
+* build: bump eslint from 9.12.0 to 9.13.0 ([21017f9](https://github.com/chrisalley/string-instrument/commit/21017f9))
+* build: bump eslint from 9.13.0 to 9.14.0 ([1167e27](https://github.com/chrisalley/string-instrument/commit/1167e27))
+* build: bump eslint from 9.14.0 to 9.15.0 ([a50c580](https://github.com/chrisalley/string-instrument/commit/a50c580))
+* build: bump eslint from 9.15.0 to 9.16.0 ([054870f](https://github.com/chrisalley/string-instrument/commit/054870f))
+* build: bump eslint from 9.16.0 to 9.17.0 ([ff2ab74](https://github.com/chrisalley/string-instrument/commit/ff2ab74))
+* build: bump globals from 15.10.0 to 15.11.0 ([a2c6cc4](https://github.com/chrisalley/string-instrument/commit/a2c6cc4))
+* build: bump globals from 15.11.0 to 15.12.0 ([dc87370](https://github.com/chrisalley/string-instrument/commit/dc87370))
+* build: bump globals from 15.12.0 to 15.13.0 ([d9db4e9](https://github.com/chrisalley/string-instrument/commit/d9db4e9))
+* build: bump globals from 15.13.0 to 15.14.0 ([7099bbf](https://github.com/chrisalley/string-instrument/commit/7099bbf))
+* build: bump globals from 15.9.0 to 15.10.0 ([298a09c](https://github.com/chrisalley/string-instrument/commit/298a09c))
+* build: bump husky from 9.1.6 to 9.1.7 ([1050e7f](https://github.com/chrisalley/string-instrument/commit/1050e7f))
+* build: bump package version to 0.0.4 ([5607a98](https://github.com/chrisalley/string-instrument/commit/5607a98))
+* build: bump prettier from 3.3.3 to 3.4.1 ([0175441](https://github.com/chrisalley/string-instrument/commit/0175441))
+* build: bump prettier from 3.4.1 to 3.4.2 ([576153d](https://github.com/chrisalley/string-instrument/commit/576153d))
+* build: bump typescript from 5.6.2 to 5.6.3 ([0a821ee](https://github.com/chrisalley/string-instrument/commit/0a821ee))
+* build: bump typescript from 5.6.3 to 5.7.2 ([d841b78](https://github.com/chrisalley/string-instrument/commit/d841b78))
+* build: bump typescript-eslint from 8.11.0 to 8.12.2 ([c6da9cd](https://github.com/chrisalley/string-instrument/commit/c6da9cd))
+* build: bump typescript-eslint from 8.12.2 to 8.13.0 ([7fc935e](https://github.com/chrisalley/string-instrument/commit/7fc935e))
+* build: bump typescript-eslint from 8.13.0 to 8.15.0 ([e82a570](https://github.com/chrisalley/string-instrument/commit/e82a570))
+* build: bump typescript-eslint from 8.15.0 to 8.17.0 ([f7e262f](https://github.com/chrisalley/string-instrument/commit/f7e262f))
+* build: bump typescript-eslint from 8.18.0 to 8.18.1 ([fcc7a75](https://github.com/chrisalley/string-instrument/commit/fcc7a75))
+* build: bump typescript-eslint from 8.7.0 to 8.11.0 ([18579a4](https://github.com/chrisalley/string-instrument/commit/18579a4))
+* build: bump vite from 5.4.10 to 5.4.11 ([2153ef0](https://github.com/chrisalley/string-instrument/commit/2153ef0))
+* build: bump vite from 5.4.11 to 6.0.3 ([0534610](https://github.com/chrisalley/string-instrument/commit/0534610))
+* build: bump vite from 5.4.6 to 5.4.7 ([8d48b0e](https://github.com/chrisalley/string-instrument/commit/8d48b0e))
+* build: bump vite from 5.4.8 to 5.4.9 ([5c8a3a1](https://github.com/chrisalley/string-instrument/commit/5c8a3a1))
+* build: bump vite from 5.4.9 to 5.4.10 ([ac0127f](https://github.com/chrisalley/string-instrument/commit/ac0127f))
+* build: bump vite from 6.0.3 to 6.0.5 ([6bb3a58](https://github.com/chrisalley/string-instrument/commit/6bb3a58))
+* build: include dist directory in published files ([f2fc475](https://github.com/chrisalley/string-instrument/commit/f2fc475))
+* build: patch packages ([b0f2886](https://github.com/chrisalley/string-instrument/commit/b0f2886))
+* build: patch Vite to fix XSS vulnerability in rollup package ([7a8eb32](https://github.com/chrisalley/string-instrument/commit/7a8eb32))
+* build: upgrade node, pnpm, packages, and add GitHub actions ([bb6d5f6](https://github.com/chrisalley/string-instrument/commit/bb6d5f6))
+* build(pnpm): run pnpm update to patch packages ([0a08308](https://github.com/chrisalley/string-instrument/commit/0a08308))
+* ci(commitlint): support longer commit messages from Dependabot ([943bba5](https://github.com/chrisalley/string-instrument/commit/943bba5))
+* style(eslint): add rule to require return types ([a44e25f](https://github.com/chrisalley/string-instrument/commit/a44e25f))
+* Add humanise and pascalise to README example import statement ([6d7a5e6](https://github.com/chrisalley/string-instrument/commit/6d7a5e6))
+* Add humanise function ([4379de9](https://github.com/chrisalley/string-instrument/commit/4379de9))
+* Add ordinal function ([6902076](https://github.com/chrisalley/string-instrument/commit/6902076))
+* Add ordinalise function ([4b2a70d](https://github.com/chrisalley/string-instrument/commit/4b2a70d))
+* Add pascalise function ([64aaa43](https://github.com/chrisalley/string-instrument/commit/64aaa43))
+* Add upcaseFirst function ([483d5cc](https://github.com/chrisalley/string-instrument/commit/483d5cc))
+* Remove non-async publish script ([48470b3](https://github.com/chrisalley/string-instrument/commit/48470b3))
+* Update packages ([d1be735](https://github.com/chrisalley/string-instrument/commit/d1be735))
+* Update TypeScript and add npm script to check types ([4fbb613](https://github.com/chrisalley/string-instrument/commit/4fbb613))
+* Upgrade Vite from version 4 to 5 ([ae55da3](https://github.com/chrisalley/string-instrument/commit/ae55da3))
+
+## <small>0.0.3 (2023-10-19)</small>
+
+* Add basic README with installation and usage instructions ([fc68f24](https://github.com/chrisalley/string-instrument/commit/fc68f24))
+* Add further metadata to package.json ([8cd41df](https://github.com/chrisalley/string-instrument/commit/8cd41df))
+* Add license and homepage field ([f1f3444](https://github.com/chrisalley/string-instrument/commit/f1f3444))
+* Release version 0.0.3 ([c5c6f6c](https://github.com/chrisalley/string-instrument/commit/c5c6f6c))
+
+## <small>0.0.2 (2023-10-16)</small>
+
+* Add file list to package.json ([062a000](https://github.com/chrisalley/string-instrument/commit/062a000))
+* Release version 0.0.2 ([748c7bb](https://github.com/chrisalley/string-instrument/commit/748c7bb))
+
+## <small>0.0.1 (2023-10-16)</small>
+
+* Add camelise function ([4a767d9](https://github.com/chrisalley/string-instrument/commit/4a767d9))
+* Add dasherise function ([896404f](https://github.com/chrisalley/string-instrument/commit/896404f))
+* Add downcaseFirst function ([8589086](https://github.com/chrisalley/string-instrument/commit/8589086))
+* Add parameterise function ([8eb85c1](https://github.com/chrisalley/string-instrument/commit/8eb85c1))
+* Add Prettier to the project ([be75327](https://github.com/chrisalley/string-instrument/commit/be75327))
+* Add titleise function ([28fea44](https://github.com/chrisalley/string-instrument/commit/28fea44))
+* Add underscore function ([fe943fb](https://github.com/chrisalley/string-instrument/commit/fe943fb))
+* Fix replacement code in dasherise function ([baa52ad](https://github.com/chrisalley/string-instrument/commit/baa52ad))
+* Initial commit ([0a4dd0e](https://github.com/chrisalley/string-instrument/commit/0a4dd0e))
+* Make test strings consistent ([4f8427e](https://github.com/chrisalley/string-instrument/commit/4f8427e))
+* Publish initial version to npm ([6a3b3c9](https://github.com/chrisalley/string-instrument/commit/6a3b3c9))
+* Remove default Vite files, add index.ts ([db87f0f](https://github.com/chrisalley/string-instrument/commit/db87f0f))
+* Split each function into a seperate file ([a99dd68](https://github.com/chrisalley/string-instrument/commit/a99dd68))
+* Update development dependencies ([9a2f9d1](https://github.com/chrisalley/string-instrument/commit/9a2f9d1))

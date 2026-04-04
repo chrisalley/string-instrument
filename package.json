@@ -29,7 +29,9 @@
     "import": "./dist/string-instrument.js"
   },
   "source": "src/index.ts",
-  "files": ["dist/*"],
+  "files": [
+    "dist/*"
+  ],
   "engineStrict": true,
   "engines": {
     "node": ">=24.14"
@@ -51,7 +53,8 @@
     "types": "tsc",
     "typedoc": "pnpx typedoc src/index.ts",
     "prepare": "husky",
-    "commitlint": "commitlint --edit"
+    "commitlint": "commitlint --edit",
+    "changelog": "pnpx conventional-changelog -r 0"
   },
   "devDependencies": {
     "@biomejs/biome": "2.4.10",
@@ -60,6 +63,7 @@
     "@commitlint/types": "^20.5.0",
     "@microsoft/api-extractor": "^7.58.0",
     "@vitest/coverage-v8": "^4.1.2",
+    "conventional-changelog": "^7.2.0",
     "globals": "^17.4.0",
     "husky": "^9.1.7",
     "typescript": "^6.0.2",
