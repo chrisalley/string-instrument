@@ -1,6 +1,6 @@
 {
   "name": "string-instrument",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "description": "A little library for working with strings",
   "keywords": [
     "string",
@@ -29,9 +29,7 @@
     "import": "./dist/string-instrument.js"
   },
   "source": "src/index.ts",
-  "files": [
-    "dist/*"
-  ],
+  "files": ["dist/*"],
   "engineStrict": true,
   "engines": {
     "node": ">=24.14"
