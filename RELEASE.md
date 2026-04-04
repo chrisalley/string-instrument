@@ -24,6 +24,16 @@
 
    `git push origin --tags`
 
-5. Login to the npm website, then publish the package to npm:
+5. Update the changelog for the release:
 
-   `npm pubish`
+   `pnpm changelog`
+
+   `git commit -am "build: commit changelog for version v1.0.0"`
+
+   `git push origin main`
+
+6. Login to the npm website, then publish the package to npm:
+
+   `npm login`
+
+   `npm publish`
