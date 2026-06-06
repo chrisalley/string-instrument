@@ -29,7 +29,9 @@
     "import": "./dist/string-instrument.js"
   },
   "source": "src/index.ts",
-  "files": ["dist/*"],
+  "files": [
+    "dist/*"
+  ],
   "engineStrict": true,
   "engines": {
     "node": ">=24.14"
@@ -42,12 +44,10 @@
     "coverage": "vitest run --coverage",
     "test": "vitest",
     "test:ui": "vitest --ui",
-    "format": "pnpx @biomejs/biome format",
-    "format:write": "pnpx @biomejs/biome format --write",
-    "lint": "pnpx @biomejs/biome lint",
-    "lint:write": "pnpx @biomejs/biome lint --write",
-    "check": "pnpx @biomejs/biome check",
-    "check:write": "pnpx @biomejs/biome check --write",
+    "lint": "pnpx oxlint src/** test/**",
+    "lint:fix": "pnpx oxlint src/** test/** --fix",
+    "fmt": "oxfmt",
+    "fmt:check": "oxfmt --check",
     "types": "tsc",
     "typedoc": "pnpx typedoc src/index.ts",
     "prepare": "husky",
@@ -55,7 +55,6 @@
     "changelog": "pnpx conventional-changelog -r 0"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.4.10",
     "@commitlint/cli": "^20.5.0",
     "@commitlint/config-conventional": "^20.5.0",
     "@commitlint/types": "^20.5.0",
@@ -64,6 +63,8 @@
     "conventional-changelog": "^7.2.0",
     "globals": "^17.4.0",
     "husky": "^9.1.7",
+    "oxfmt": "^0.53.0",
+    "oxlint": "^1.68.0",
     "typescript": "^6.0.2",
     "unplugin-dts": "1.0.0-beta.6",
     "vite": "^8.0.3",
