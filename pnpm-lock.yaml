@@ -4,9 +4,6 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
-overrides:
-  '@microsoft/api-extractor>lodash': '>=4.18.1'
-
 importers:
 
   .:
