@@ -55,7 +55,7 @@
     "changelog": "pnpx conventional-changelog -r 0"
   },
   "devDependencies": {
-    "@commitlint/cli": "^20.5.0",
+    "@commitlint/cli": "^20.5.3",
     "@commitlint/config-conventional": "^20.5.0",
     "@commitlint/types": "^20.5.0",
     "@microsoft/api-extractor": "^7.58.0",
