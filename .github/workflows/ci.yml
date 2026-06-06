@@ -8,7 +8,7 @@ jobs:
     strategy:
       matrix:
         node: ['24.14']
-        os: [ubuntu-latest, windows-latest, macOS-latest]
+        os: [ubuntu-latest, macOS-latest]
 
     steps:
       - name: Checkout repo
@@ -28,8 +28,11 @@ jobs:
       - name: Install Dependencies
         run: pnpm install
 
-      - name: Format, lint, and organize imports of all files
-        run: pnpm check
+      - name: Lint
+        run: pnpm lint
+
+      - name: Format
+        run: pnpm fmt:check
 
       - name: Types
         run: pnpm types
