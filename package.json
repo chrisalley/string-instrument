@@ -56,7 +56,7 @@
   },
   "devDependencies": {
     "@commitlint/cli": "^20.5.3",
-    "@commitlint/config-conventional": "^20.5.3",
+    "@commitlint/config-conventional": "^21.2.0",
     "@commitlint/types": "^21.2.0",
     "@microsoft/api-extractor": "^7.58.12",
     "@vitest/coverage-v8": "^4.1.10",
